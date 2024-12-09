@@ -1,0 +1,7 @@
+{
+  "extends": "@dep-checker/tsconfig/node.json",
+  "include": ["."],
+  "compilerOptions": {
+    "types": ["vitest/globals"]
+  }
+}
